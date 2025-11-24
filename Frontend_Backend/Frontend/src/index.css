@@ -1,0 +1,26 @@
+/* Apply full background image to entire app */
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('./assets/bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: Arial, sans-serif;
+}
+
+/* Center content and add spacing */
+.container {
+  padding: 20px;
+}
+
+/* Common card style for all pages */
+.card {
+  background: rgba(255, 255, 255, 0.8); /* transparent white box for readability */
+  padding: 20px;
+  border-radius: 10px;
+  width: 350px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.15);
+  margin-top: 20px;
+}
